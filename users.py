@@ -13,7 +13,7 @@ def menu():
 		print("5 - list of users")
 		print("6 - exit")
 		try:
-			choice = int(input("Select ur choice via it's number"))
+			choice = int(input("Select ur choice via it's number: "))
 			if choice < 7 and choice > 0:
 				return choice
 		except:
